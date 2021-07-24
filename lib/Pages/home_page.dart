@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
       drawer: Drawer(),
       body: Center(
         child: Container(
-          child: Text("Welcome to 30 days course"),
+          child: Text("Welcome to 30 days course", style: TextStyle(color: Colors.purple.shade900)),
         ),
       ),  
     );
